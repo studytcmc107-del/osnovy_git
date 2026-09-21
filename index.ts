@@ -1,11 +1,13 @@
 function showMenu(): void {
     console.log("Меню");
-    console.log("1. Сложение");
-    console.log("2. Вычитание");
-    console.log("3. Умножение");
-    console.log("4. Деление");
-    console.log("0. Выход");
+    console.log("1. Ввести два числа");
+    console.log("2. Выполнить сложение");
+    console.log("3. Выполнить вычитание");
+    console.log("4. Выполнить деление");
+    console.log("5. Возвести число в степень");
 }
+
+showMenu();
 
 function add(a: number, b: number): number {
     return a + b;
