@@ -9,3 +9,6 @@ function showMenu(): void {
 
 showMenu();
 
+function subtract(a: number, b: number): number {
+    return a - b;
+}
