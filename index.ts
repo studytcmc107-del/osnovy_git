@@ -9,3 +9,6 @@ function showMenu(): void {
 
 showMenu();
 
+function power(base: number, exponent: number): number {
+    return Math.pow(base, exponent);
+}
