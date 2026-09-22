@@ -20,3 +20,6 @@ function add(a: number, b: number): number {
 function divide(a: number, b: number): number {
     return a / b;
 }
+function power(base: number, exponent: number): number {
+    return Math.pow(base, exponent);
+}
